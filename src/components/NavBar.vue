@@ -1,24 +1,222 @@
 <template>
-            <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(218, 182, 252, 1)" offset="0%"></stop><stop stop-color="rgba(218, 182, 252, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,20L20,28.3C40,37,80,53,120,60C160,67,200,63,240,58.3C280,53,320,47,360,40C400,33,440,27,480,25C520,23,560,27,600,35C640,43,680,57,720,60C760,63,800,57,840,50C880,43,920,37,960,30C1000,23,1040,17,1080,26.7C1120,37,1160,63,1200,71.7C1240,80,1280,70,1320,58.3C1360,47,1400,33,1440,36.7C1480,40,1520,60,1560,63.3C1600,67,1640,53,1680,43.3C1720,33,1760,27,1800,20C1840,13,1880,7,1920,10C1960,13,2000,27,2040,35C2080,43,2120,47,2160,51.7C2200,57,2240,63,2280,68.3C2320,73,2360,77,2400,71.7C2440,67,2480,53,2520,48.3C2560,43,2600,47,2640,43.3C2680,40,2720,30,2760,30C2800,30,2840,40,2860,45L2880,50L2880,100L2860,100C2840,100,2800,100,2760,100C2720,100,2680,100,2640,100C2600,100,2560,100,2520,100C2480,100,2440,100,2400,100C2360,100,2320,100,2280,100C2240,100,2200,100,2160,100C2120,100,2080,100,2040,100C2000,100,1960,100,1920,100C1880,100,1840,100,1800,100C1760,100,1720,100,1680,100C1640,100,1600,100,1560,100C1520,100,1480,100,1440,100C1400,100,1360,100,1320,100C1280,100,1240,100,1200,100C1160,100,1120,100,1080,100C1040,100,1000,100,960,100C920,100,880,100,840,100C800,100,760,100,720,100C680,100,640,100,600,100C560,100,520,100,480,100C440,100,400,100,360,100C320,100,280,100,240,100C200,100,160,100,120,100C80,100,40,100,20,100L0,100Z"></path></svg>
-    <footer>
-      <a href="../HomeView"><img src="../assets/logo.png" alt="" width="100"></a>
-       <div class="nombres d-flex justify-content-center">
-       </div>
-    </footer>
- </template>
- <script>
-    export default {
-    name: 'navbar', 
-    }
- </script>
- <style scoped>
-    footer {
-    background-color: #DAB6FC;
-    /*     margin-top: 5em; */
-    padding: 50px;
-    text-align: center;
-    font-size: 14px;
-    color: azure;
-    }
- </style>
- 
+   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+      <div class="container-fluid">
+         <div class="row justify-content-center align-items-center">
+            <div class="col-xl-11 d-flex align-items-center justify-content-between">
+               <h1 class="logo"><a href="../views/HomeView.vue">BizPage</a></h1>
+               <!-- Uncomment below if you prefer to use an image logo -->
+               <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+               <nav id="navbar" class="navbar">
+                  <ul>
+                     <li><a class="nav-link scrollto active" href="../views/HomeView.vue">Inicio</a></li>
+                     <li><a class="nav-link scrollto" href="../views/GaleriaView.vue">Galería</a></li>
+                     <li class="dropdown">
+                        <a href="#"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                           <li><a href="#">Drop Down 1</a></li>
+                           <li><a href="#">Drop Down 2</a></li>
+                           <li><a href="#">Drop Down 3</a></li>
+                           <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                     </li>
+                     <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                  </ul>
+                  <i class="bi bi-list mobile-nav-toggle"></i>
+               </nav>
+               <!-- .navbar -->
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- End Header -->
+</template>
+<script>
+   export default {
+   name: 'NavBar', 
+   }
+</script>
+<style scoped>
+   .navbar {
+   padding: 0;
+   }
+   .navbar ul {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   list-style: none;
+   align-items: center;
+   }
+   .navbar li {
+   position: relative;
+   }
+   .navbar a,
+   .navbar a:focus {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 0 10px 30px;
+   font-family: "Montserrat", sans-serif;
+   font-size: 13px;
+   font-weight: 600;
+   color: #fff;
+   white-space: nowrap;
+   text-transform: uppercase;
+   transition: 0.3s;
+   }
+   .navbar a i,
+   .navbar a:focus i {
+   font-size: 12px;
+   line-height: 0;
+   margin-left: 5px;
+   }
+   .navbar a:hover,
+   .navbar .active,
+   .navbar .active:focus,
+   .navbar li:hover>a {
+   color: #18d26e;
+   }
+   .navbar .dropdown ul {
+   display: block;
+   position: absolute;
+   left: 14px;
+   top: calc(100% + 30px);
+   margin: 0;
+   padding: 10px 0;
+   z-index: 99;
+   opacity: 0;
+   visibility: hidden;
+   background: #fff;
+   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+   transition: 0.3s;
+   }
+   .navbar .dropdown ul li {
+   min-width: 200px;
+   }
+   .navbar .dropdown ul a {
+   padding: 10px 20px;
+   text-transform: none;
+   color: #666666;
+   }
+   .navbar .dropdown ul a i {
+   font-size: 12px;
+   }
+   .navbar .dropdown ul a:hover,
+   .navbar .dropdown ul .active:hover,
+   .navbar .dropdown ul li:hover>a {
+   color: #18d26e;
+   }
+   .navbar .dropdown:hover>ul {
+   opacity: 1;
+   top: 100%;
+   visibility: visible;
+   }
+   .navbar .dropdown .dropdown ul {
+   top: 0;
+   left: calc(100% - 30px);
+   visibility: hidden;
+   }
+   .navbar .dropdown .dropdown:hover>ul {
+   opacity: 1;
+   top: 0;
+   left: 100%;
+   visibility: visible;
+   }
+   @media (max-width: 1366px) {
+   .navbar .dropdown .dropdown ul {
+   left: -90%;
+   }
+   .navbar .dropdown .dropdown:hover>ul {
+   left: -100%;
+   }
+   }
+   /**
+   * Mobile Navigation 
+   */
+   .mobile-nav-toggle {
+   color: #fff;
+   font-size: 28px;
+   cursor: pointer;
+   display: none;
+   line-height: 0;
+   transition: 0.5s;
+   }
+   @media (max-width: 991px) {
+   .mobile-nav-toggle {
+   display: block;
+   }
+   .navbar ul {
+   display: none;
+   }
+   }
+   .navbar-mobile {
+   position: fixed;
+   overflow: hidden;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   background: rgba(26, 26, 26, 0.9);
+   transition: 0.3s;
+   z-index: 999;
+   }
+   .navbar-mobile .mobile-nav-toggle {
+   position: absolute;
+   top: 15px;
+   right: 15px;
+   }
+   .navbar-mobile ul {
+   display: block;
+   position: absolute;
+   top: 55px;
+   right: 15px;
+   bottom: 15px;
+   left: 15px;
+   padding: 10px 0;
+   background-color: #fff;
+   overflow-y: auto;
+   transition: 0.3s;
+   }
+   .navbar-mobile a,
+   .navbar-mobile a:focus {
+   padding: 10px 20px;
+   font-size: 15px;
+   color: #333333;
+   }
+   .navbar-mobile a:hover,
+   .navbar-mobile .active,
+   .navbar-mobile li:hover>a {
+   color: #18d26e;
+   }
+   .navbar-mobile .getstarted,
+   .navbar-mobile .getstarted:focus {
+   margin: 15px;
+   }
+   .navbar-mobile .dropdown ul {
+   position: static;
+   display: none;
+   margin: 10px 20px;
+   padding: 10px 0;
+   z-index: 99;
+   opacity: 1;
+   visibility: visible;
+   background: #fff;
+   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+   }
+   .navbar-mobile .dropdown ul li {
+   min-width: 200px;
+   }
+   .navbar-mobile .dropdown ul a {
+   padding: 10px 20px;
+   }
+   .navbar-mobile .dropdown ul a i {
+   font-size: 12px;
+   }
+   .navbar-mobile .dropdown ul a:hover,
+   .navbar-mobile .dropdown ul .active:hover,
+   .navbar-mobile .dropdown ul li:hover>a {
+   color: #18d26e;
+   }
+   .navbar-mobile .dropdown>.dropdown-active {
+   display: block;
+   }
+</style>
