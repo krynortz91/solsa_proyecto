@@ -3,20 +3,19 @@
       <div class="container-fluid">
          <div class="row justify-content-center align-items-center">
             <div class="col-xl-11 d-flex align-items-center justify-content-between">
-               <h1 class="logo"><a href="../views/HomeView.vue">Solsa</a></h1>
-               <!-- Uncomment below if you prefer to use an image logo -->
-               <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+               <!-- <h1 class="logo"><a href="../views/HomeView.vue">Solsa</a></h1> -->
+               <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid"></a>
                <nav id="navbar" class="navbar">
                   <ul>
                      <li><a class="nav-link scrollto active" href="../views/HomeView.vue">Inicio</a></li>
-                     <li><a class="nav-link scrollto" href="../views/GaleriaView.vue">Galería</a></li>
+                     <li><a class="nav-link scrollto" href="#portfolio">Galería</a></li>
                      <li class="dropdown">
                         <a href="#"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                           <li><a href="#">Drop Down 1</a></li>
-                           <li><a href="#">Drop Down 2</a></li>
-                           <li><a href="#">Drop Down 3</a></li>
-                           <li><a href="#">Drop Down 4</a></li>
+                           <li><a href="#">Montaje industrial</a></li>
+                           <li><a href="#">Apoyo operacional</a></li>
+                           <li><a href="#">Mantenimiento industrial</a></li>
+                           <li><a href="#">Mecanizado en terreno</a></li>
                         </ul>
                      </li>
                      <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
@@ -66,7 +65,11 @@
    font-family: "Montserrat", sans-serif;
    font-weight: 400;
    margin: 0 0 20px 0;
-   padding: 0;
+   /* padding: 0; */
+   }
+   .logo img{
+      height: 80px;
+      padding-top: 15px;
    }
    .navbar {
    padding: 0;

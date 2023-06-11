@@ -10,32 +10,31 @@
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                <div class="about-col">
                   <div class="img">
-                     <!-- <img src="assets/img/about-mission.jpg" alt="" class="img-fluid"> -->
+                     <img src="../assets/3.jpg" alt="" class="img-fluid">
                      <div class="icon"><i class="bi bi-bar-chart"></i></div>
                   </div>
                   <h2 class="title"><a href="#">Montaje Industrial</a></h2>
                   <p>
-                     Los principales ámbitos generales desarrollados por nuestros Técnicos mecánicos son el análisis y soluciones a problemas de operaciones como de ingeniería que tengan por objeto la reforma, reparación, conservación, demolición, fabricación, instalación, montaje de: estructuras, equipos mecánicos, plantas industriales y maquinaria industrial de operación Hidráulica, eléctrica y neumática presentes en el rubro transporte, manufactura y minería.
+                     Nuestros técnicos mecánicos resuelven problemas y realizan trabajos en estructuras, equipos mecánicos, plantas industriales y maquinaria industrial. Nos especializamos en los sectores de transporte, manufactura y minería, abarcando aspectos hidráulicos, eléctricos y neumáticos.
                   </p>
                </div>
             </div>
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                <div class="about-col">
                   <div class="img">
-                     <!-- <img src="assets/img/about-plan.jpg" alt="" class="img-fluid"> -->
+                     <img src="../assets/5.jpg" alt="" class="img-fluid">
                      <div class="icon"><i class="bi bi-brightness-high"></i></div>
                   </div>
                   <h2 class="title"><a href="#">Servicio de apoyo operacional y Mantenimiento industrial </a></h2>
                   <p>
-                     Prestamos servicio de apoyo, para cubrir la brecha de personal necesaria para sus proyectos y mantenciones sin pasar por el engorroso proceso de acreditar al personal, ya que nosotros nos encargamos de todo.
-                     Nos hacemos cargo de la correcto mantenimiento de tus plantas y maquinaria industrial, incrementando las horas de producción y reduciendo los costos en mantenimiento reactivo/correctivos.
+                     Ofrecemos servicios de apoyo para cubrir la brecha de personal en proyectos y mantenimiento. Nos encargamos de todo, garantizando el correcto mantenimiento de tus plantas y maquinaria industrial, aumentando la producción y reduciendo los costos de mantenimiento.
                   </p>
                </div>
             </div>
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                <div class="about-col">
                   <div class="img">
-                     <!-- <img src="assets/img/about-vision.jpg" alt="" class="img-fluid"> -->
+                     <img src="../assets/4.jpg" alt="" class="img-fluid">
                      <div class="icon"><i class="bi bi-calendar4-week"></i></div>
                   </div>
                   <h2 class="title"><a href="#">Mecanizado en terreno </a></h2>
@@ -54,7 +53,7 @@
    body {
    background: #fff;
    color: #666666;
-   font-family: "Open Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
    }
    a {
    color: #18d26e;
@@ -71,6 +70,7 @@
    p {
    padding: 0;
    margin: 0 0 30px 0;
+   font-family: "Montserrat", sans-serif;
    }
    h1,
    h2,
@@ -79,7 +79,7 @@
    h5,
    h6 {
    font-family: "Montserrat", sans-serif;
-   font-weight: 400;
+   font-weight: 600;
    margin: 0 0 20px 0;
    padding: 0;
    }

@@ -48,7 +48,7 @@
    }
 </script>
 <style scoped>
- body {
+   body {
    background: #fff;
    color: #666666;
    font-family: "Open Sans", sans-serif;
@@ -80,7 +80,6 @@
    margin: 0 0 20px 0;
    padding: 0;
    }
-   
    #footer {
    background: #000;
    padding: 0 0 30px 0;

@@ -1,5 +1,6 @@
 <template>
    <!-- ======= Portfolio Section ======= -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
    <section id="portfolio" class="section-bg">
       <div class="container" data-aos="fade-up">
          <header class="section-header">
@@ -7,129 +8,105 @@
          </header>
          <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class=" col-lg-12">
-               <ul id="portfolio-flters">
-                  <li data-filter="*" class="filter-active">All</li>
-                  <li data-filter=".filter-app">App</li>
-                  <li data-filter=".filter-card">Card</li>
-                  <li data-filter=".filter-web">Web</li>
-               </ul>
             </div>
          </div>
          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/4.jpg" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">App 1</a></h4>
-                     <p>App</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/web3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/2.png" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">Web 3</a></h4>
-                     <p>Web</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/app2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 2"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/4.jpg" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">App 2</a></h4>
-                     <p>App</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/card2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 2"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/4.jpg" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">Card 2</a></h4>
-                     <p>Card</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/web2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/4.jpg" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">Web 2</a></h4>
-                     <p>Web</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/app3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/4.jpg" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">App 3</a></h4>
-                     <p>App</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/card1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 1"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/4.jpg" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">Card 1</a></h4>
-                     <p>Card</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/4.jpg" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">Card 3</a></h4>
-                     <p>Card</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                <div class="portfolio-wrap">
                   <figure>
-                     <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
-                     <a href="assets/img/portfolio/web1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
-                     <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                     <img src="../assets/4.jpg" class="img-fluid" alt="">
                   </figure>
                   <div class="portfolio-info">
-                     <h4><a href="portfolio-details.html">Web 1</a></h4>
-                     <p>Web</p>
+                     <h4><a href="portfolio-details.html">Nombre Proyecto</a></h4>
+                     <p>Descripción Proyecto</p>
                   </div>
                </div>
             </div>
@@ -168,7 +145,7 @@
    h5,
    h6 {
    font-family: "Montserrat", sans-serif;
-   font-weight: 400;
+   font-weight: 600;
    margin: 0 0 20px 0;
    padding: 0;
    }
