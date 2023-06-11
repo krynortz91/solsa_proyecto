@@ -1,17 +1,17 @@
 <template>
   <NavBar/>
   <router-view />
-  <Footer/>
   <Whatsapp />
   <TopArrow />
   <HomeView />
   <ServiciosView />
   <GaleriaView />
+  <FooterComp/>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar.vue" 
-import Footer from "@/components/Footer.vue"
+import FooterComp from "@/components/FooterComp.vue"
 import Whatsapp from "@/components/Whatsapp.vue"
 import TopArrow from "@/components/TopArrow.vue"
 import HomeView from "@/views/HomeView.vue"
@@ -23,7 +23,7 @@ export default {
   name: 'App',
   components: {
     NavBar,
-    Footer,
+    FooterComp,
     Whatsapp,
     GaleriaView,
     HomeView,

@@ -3,7 +3,7 @@
       <div class="container-fluid">
          <div class="row justify-content-center align-items-center">
             <div class="col-xl-11 d-flex align-items-center justify-content-between">
-               <h1 class="logo"><a href="../views/HomeView.vue">BizPage</a></h1>
+               <h1 class="logo"><a href="../views/HomeView.vue">Solsa</a></h1>
                <!-- Uncomment below if you prefer to use an image logo -->
                <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
                <nav id="navbar" class="navbar">
@@ -36,6 +36,38 @@
    }
 </script>
 <style scoped>
+   body {
+   background: #fff;
+   color: #666666;
+   font-family: "Open Sans", sans-serif;
+   }
+   a {
+   color: #18d26e;
+   transition: 0.5s;
+   text-decoration: none;
+   }
+   a:hover,
+   a:active,
+   a:focus {
+   color: #18d36e;
+   outline: none;
+   text-decoration: none;
+   }
+   p {
+   padding: 0;
+   margin: 0 0 30px 0;
+   }
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 400;
+   margin: 0 0 20px 0;
+   padding: 0;
+   }
    .navbar {
    padding: 0;
    }

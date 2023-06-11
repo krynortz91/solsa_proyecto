@@ -3,6 +3,11 @@ import HomeView from '../views/HomeView.vue'
 import GaleriaView from '../views/GaleriaView.vue'
 import ServiciosView from '../views/ServiciosViewView.vue'
 import NotFoundView from '../views/NotFoundView'
+import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
+Vue.use(BootstrapVue);
 const routes = [
 {
 path: "/",
