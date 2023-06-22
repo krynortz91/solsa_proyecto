@@ -3,10 +3,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
   <section id="hero">
      <div class="hero-container">
+import ContactoComp from "@/components/ContactoComp.vue";
         <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
            <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+              <div class="carousel-item active" style="background-image: url(../assets/1.png)">
                  <div class="carousel-container">
                     <div class="container">
                        <h2 class="animate__animated animate__fadeInDown">
@@ -17,7 +18,7 @@
                     </div>
                  </div>
               </div>
-              <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+              <div class="carousel-item" style="background-image: url(../assets/1.png)">
                  <div class="carousel-container">
                     <div class="container">
                        <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
@@ -26,7 +27,7 @@
                     </div>
                  </div>
               </div>
-              <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
+              <div class="carousel-item" style="background-image: url(../assets/1.png)">
                  <div class="carousel-container">
                     <div class="container">
                        <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
@@ -35,7 +36,7 @@
                     </div>
                  </div>
               </div>
-              <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/4.jpg)">
+              <div class="carousel-item" style="background-image: url(../assets/1.png)">
                  <div class="carousel-container">
                     <div class="container">
                        <h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>
@@ -44,7 +45,7 @@
                     </div>
                  </div>
               </div>
-              <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/5.jpg)">
+              <div class="carousel-item" style="background-image: url(../assets/1.png)">
                  <div class="carousel-container">
                     <div class="container">
                        <h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>
@@ -64,45 +65,66 @@
      </div>
   </section>
   <!-- End Hero Section -->
+<ServiciosComp />
+<GaleriaComp />
+<CallComp />
+<TestimonioComp />
+<ContactoComp />
+
 </template>
 <script>
-  export default {
-  name: "HomeView",
-  }
+   import ServiciosComp from "@/components/ServiciosComp.vue"
+   import GaleriaComp from "@/components/GaleriaComp.vue"
+   import CallComp from "@/components/CallComp.vue"
+   import TestimonioComp from "@/components/TestimonioComp.vue"
+   import ContactoComp from "@/components/ContactoComp.vue"
+
+   export default {
+      name: "HomeView",
+      components: {
+         ServiciosComp,
+         GaleriaComp,
+         CallComp,   
+         TestimonioComp,
+         ContactoComp
+      },
+      updated() {
+         var section=this.$router.currentRoute.value.hash.replace("#", "");
+         if (section)
+            this.$nextTick(()=> window.document.getElementById(section).scrollIntoView());
+      },
+      mounted(){
+         var section=this.$router.currentRoute.value.hash.replace("#", "");
+         if (section)
+            this.$nextTick(()=> window.document.getElementById(section).scrollIntoView());
+      }
+   }
+
+   
 </script>
 <style scoped>
   body {
-  background: #fff;
-  color: #666666;
-  font-family: "Open Sans", sans-serif;
+   background: #fff;
+   color: #666666;
+   font-family: "Open Sans", sans-serif;
   }
   a {
-  color: #18d26e;
-  transition: 0.5s;
-  text-decoration: none;
+   color: #18d26e;
+   transition: 0.5s;
+   text-decoration: none;
   }
   a:hover,
   a:active,
   a:focus {
-  color: #18d36e;
-  outline: none;
-  text-decoration: none;
+   color: #18d36e;
+   outline: none;
+   text-decoration: none;
   }
   p {
-  padding: 0;
-  margin: 0 0 30px 0;
+   padding: 0;
+   margin: 0 0 30px 0;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  margin: 0 0 20px 0;
-  padding: 0;
-  }
+
   #hero {
   width: 100%;
   height: 100vh;

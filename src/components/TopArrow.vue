@@ -9,7 +9,7 @@
     
         mounted(){
         window.addEventListener("scroll", function() {
-        if (window.pageYOffset >= 50) { // Si la página se ha desplazado más de 50px
+        if (window.scrollY >= 50) { // Si la página se ha desplazado más de 50px
             document.getElementById("return-to-top").style.display = "block"; // Mostrar la flecha
         } else {
             document.getElementById("return-to-top").style.display = "none"; // Ocultar la flecha
@@ -25,24 +25,25 @@
  </script>
  <style scoped>
     #return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.7);
+        width: 50px;
+        height: 50px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        z-index: 99999;
     }
     #return-to-top i {
     color: #fff;

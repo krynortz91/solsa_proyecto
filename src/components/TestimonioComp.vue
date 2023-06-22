@@ -84,9 +84,6 @@
    name: 'TestimonioComp',
    };
    import 'swiper/swiper-bundle.css';
-   
-   
-   
 </script>
 <style scoped>
    body {
