@@ -3,7 +3,9 @@
       <div class="container text-center" data-aos="zoom-in">
         <h3>Contrata ahora</h3>
         <p> No pierdas la oportunidad de potenciar tu negocio con nuestras soluciones de ingeniería. </p>
-        <a class="cta-btn" href="#">Contactar</a>
+        <div class="cta-btn">
+        <router-link to="/#contact">Contactar</router-link>
+      </div>
       </div>
     </section><!-- End Call To Action Section -->
 </template>

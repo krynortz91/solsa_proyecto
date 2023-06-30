@@ -108,6 +108,9 @@
    transition: 0.5s;
    text-decoration: none;
    }
+   .bi-plus{
+      color:#18d26e;
+   }
    a:hover,
    a:active,
    a:focus {

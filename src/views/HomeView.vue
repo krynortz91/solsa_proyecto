@@ -14,7 +14,9 @@ import ContactoComp from "@/components/ContactoComp.vue";
                           Montaje Industrial Soluciones de Ingeniería
                        </h2>
                        <p class="animate__animated animate__fadeInUp">Servicio de apoyo integral a operaciones industriales, Arriendo de equipos, Herramientas y más.</p>
-                       <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Servicios</a>
+                       <div  class="btn-get-started scrollto animate__animated animate__fadeInUp">
+                        <router-link to="/ServiciosView">Servicios</router-link>
+                       </div>
                     </div>
                  </div>
               </div>
