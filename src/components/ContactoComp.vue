@@ -30,7 +30,7 @@
             </div>
          </div>
          <div class="form">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="correo.php" method="POST" role="form" class="php-email-form">
                <div class="row">
                   <div class="form-group col-md-6">
                      <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
