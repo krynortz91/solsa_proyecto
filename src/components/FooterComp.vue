@@ -26,7 +26,7 @@
                <div class="col-lg-3 col-md-6 footer-contact">
                   <h4>Contactános</h4>
                   <p>
-                     <strong>Teléfono:</strong> +56 9 7166 4521<br>
+                     <strong>Teléfono:</strong> +56 9 9135 1542<br>
                      <strong>Email:</strong> info@solsa.cl<br>
                   </p>
                   <!-- <div class="social-links">

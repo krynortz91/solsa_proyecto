@@ -18,7 +18,7 @@
                <div class="contact-phone">
                   <i class="bi bi-phone"></i>
                   <h3>Teléfono</h3>
-                  <p><a href="tel:+155895548855">+56 9 7166 4521</a></p>
+                  <p><a href="tel:+155895548855">+56 9 9135 1542</a></p>
                </div>
             </div>
             <div class="col-md-4">
