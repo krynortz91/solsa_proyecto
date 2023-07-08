@@ -13,9 +13,9 @@
                      <img src="../assets/3.jpg" alt="" class="img-fluid">
                      <div class="icon"><i class="bi bi-bar-chart"></i></div>
                   </div>
-                  <h2 class="title"><a href="#">Montaje Industrial</a></h2>
+                  <h2 class="title"><a href="#">Mecanizados en terreno</a></h2>
                   <p>
-                     Nuestros técnicos mecánicos resuelven problemas y realizan trabajos en estructuras, equipos mecánicos, plantas industriales y maquinaria industrial. Nos especializamos en los sectores de transporte, manufactura y minería, abarcando aspectos hidráulicos, eléctricos y neumáticos.
+                  En SOLSA ofrecemos servicios de mecanizado en terreno, brindando soluciones  de barrenado de precisión, efectivas y eficiencientes con excelente gestión y manejo logístico, con un personal calificado y experimentado que nos asegura entregar un excelente servicio.
                   </p>
                </div>
             </div>
@@ -25,9 +25,10 @@
                      <img src="../assets/5.jpg" alt="" class="img-fluid">
                      <div class="icon"><i class="bi bi-brightness-high"></i></div>
                   </div>
-                  <h2 class="title"><a href="#">Servicio de apoyo operacional y Mantenimiento industrial </a></h2>
+                  <h2 class="title"><a href="#">Arriendo de Equipos de Apoyo</a></h2>
                   <p>
-                     Ofrecemos servicios de apoyo para cubrir la brecha de personal en proyectos y mantenimiento. Nos encargamos de todo, garantizando el correcto mantenimiento de tus plantas y maquinaria industrial, aumentando la producción y reduciendo los costos de mantenimiento.
+                     Contamos con equipos de apoyo disponibles para arriendo, que se adaptan a las necesidades de su industria. Dentro de este servicio, ofrecemos:
+
                   </p>
                </div>
             </div>

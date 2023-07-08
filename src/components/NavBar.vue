@@ -10,12 +10,18 @@
                      <li><a class="nav-link scrollto active" href="../views/HomeView.vue">Inicio</a></li>
                      <li><a class="nav-link scrollto" href="#portfolio">Galería</a></li>
                      <li class="dropdown">
+                        <!-- LINKS ACTUALIZADOS NO PUDE PONER LOS QUE VAN ADENTRO -->
                         <a href="#"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                           <li><a href="#">Montaje industrial</a></li>
-                           <li><a href="#">Apoyo operacional</a></li>
-                           <li><a href="#">Mantenimiento industrial</a></li>
-                           <li><a href="#">Mecanizado en terreno</a></li>
+                           <li><a href="#">Mecanizados en Terreno</a></li>
+                           <li class="dropdown">
+                              <a href="#"><span>Arriendo de Equipos de Apoyo</span><i class="bi bi-chevron-down"></i></a>
+                              </li>
+                           <li><a href="#">Arriendo de Camionetas 4x4</a></li>
+                           <a href="#"><span>Reparación de Equipos Autónomos</span><i class="bi bi-chevron-down"></i></a>
+                           <a href="#"><span>Proyectos</span><i class="bi bi-chevron-down"></i></a>
+                           <a href="#"><span>Ferreteria Especializada</span><i class="bi bi-chevron-down"></i></a>
+   
                         </ul>
                      </li>
                      <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>

@@ -4,7 +4,7 @@ import GaleriaView from '../views/GaleriaView.vue'
 import ServiciosView from '../views/ServiciosView.vue'
 import NotFoundView from '../views/NotFoundView'
 
-Vue.use(BootstrapVue);
+// Vue.use(BootstrapVue);
 const routes = [
 {
 path: "/",
