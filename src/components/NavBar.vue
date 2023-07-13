@@ -4,7 +4,8 @@
          <div class="row justify-content-center align-items-center">
             <div class="col-xl-11 d-flex align-items-center justify-content-between">
                <!-- <h1 class="logo"><a href="../views/HomeView.vue">Solsa</a></h1> -->
-               <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid"></a>
+               <!-- <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid"></a> -->
+               <a href="../views/HomeView.vue" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid"></a>
                <nav id="navbar" class="navbar">
                   <ul>
                      <li><a class="nav-link scrollto active" href="../views/HomeView.vue">Inicio</a></li>
